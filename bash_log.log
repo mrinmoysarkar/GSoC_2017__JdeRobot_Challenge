@@ -1,0 +1,74 @@
+gedit .bash_history 
+ls
+mkdir JdeRobot
+cd JdeRobot/
+git clone https://github.com/JdeRobot/JdeRobot.git
+sudo apt-get install build-essential libtinyxml-dev libtbb-dev libxml2-dev libqt4-dev pkg-config libprotoc-dev libfreeimage-dev libprotobuf-dev protobuf-compiler libboost-all-dev freeglut3-dev cmake libogre-dev libtar-dev libcurl4-openssl-dev libcegui-mk2-dev libswscale-dev libavformat-dev libavcodec-dev 
+sudo apt-get install build-essential libtinyxml-dev libtbb-dev libxml2-dev libqt4-dev pkg-config libprotoc-dev libfreeimage-dev libprotobuf-dev protobuf-compiler libboost-all-dev freeglut3-dev cmake libtar-dev libcurl4-openssl-dev libcegui-mk2-dev libswscale-dev libavformat-dev libavcodec-dev 
+ls
+cd JdeRobot/
+cmake .
+sudo apt-get install libcwiid-dev
+clear
+cmake .
+sudo apt-get install libgsl0ldbl
+sudo apt-get update
+sudo apt-get install libgsl0ldbl
+sudo apt-get install libgsl2
+cmake .
+mkdir build && cd build
+cmake ..
+vim ../CMakeFiles/CMakeError.log 
+sudo apt install build-essential libtool cmake g++ gcc git make
+sudo apt install freeglut3 freeglut3-dev libgl1-mesa-dev libglu1-mesa
+sudo apt install libgtk2.0-0 libgtk2.0-bin libgtk2.0-cil libgtk2.0-common libgtk2.0-dev libgtkgl2.0-1
+sudo apt install libgtkgl2.0-dev libgtkglext1 libgtkglext1-dev libglademm-2.4-dev libgtkmm-2.4-dev 
+sudo apt install libgnomecanvas2-0 libgnomecanvas2-dev  libgtkglext1-doc libgnomecanvasmm-2.6-dev
+sudo apt install libgnomecanvasmm-2.6-1v5 libgtkglextmm-x11-1.2-0v5 libgtkglextmm-x11-1.2-dev
+sudo apt install libgoocanvasmm-2.0-6 libgoocanvasmm-2.0-dev
+sudo apt install libgsl2 gsl-bin libgsl-dev
+sudo apt install libxml++2.6-2v5 libxml++2.6-dev libtinyxml-dev
+sudo apt install libeigen3-dev
+sudo apt install libdc1394-22 libdc1394-22-dev
+sudo apt install libusb-1.0-0 libusb-1.0-0-dev
+sudo apt install libcwiid-dev
+sudo apt install python-matplotlib python-pyqt5 python-pip python-numpy python-pyqt5.qtsvg
+sudo apt install qfi
+sudo apt install qtbase5-dev libqt5declarative5 libqt5script5 libqt5svg5-dev
+sudo apt install libboost-system-dev libboost-filesystem-dev
+sudo apt install ros-kinetic-roscpp ros-kinetic-std-msgs ros-kinetic-cv-bridge ros-kinetic-image-transport ros-kinetic-roscpp-core ros-kinetic-rospy ros-kinetic-nav-msgs ros-kinetic-geometry-msgs
+sudo apt-get install libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
+sudo apt-get install libzeroc-ice3.6 zeroc-ice-utils libzeroc-icestorm3.6 zeroc-ice-slice libzeroc-ice-dev
+sudo apt-get install libzeroc-ice3.6 zeroc-ice-utils libzeroc-icestorm3.6 zeroc-ice-slice libzeroc-ice35-dev
+sudo apt install libzeroc-ice3.6 zeroc-ice-utils libzeroc-icestorm3.6 zeroc-ice-slice libzeroc-ice35-dev
+sudo apt-get install libssl-dev libbz2-dev
+sudo pip2 install --upgrade pip
+sudo pip2 install zeroc-ice
+sudo apt-get install libopenni2-dev libopenni-dev
+sudo apt-get install gazebo7 libgazebo7-dev
+sudo apt-get install libpcl-dev
+sudo apt-get install ros-kinetic-opencv3
+sudo apt-get install nodejs
+sudo apt-get install kobukilib
+sudo apt-get install ardronelib
+cmake ..
+deb http://cz.archive.ubuntu.com/ubuntu xenial main universe
+deb http://kr.archive.ubuntu.com/ubuntu xenial main universe
+sudo apt install deb
+sudo apt-get install deb
+debc http://kr.archive.ubuntu.com/ubuntu xenial main universe
+sudo apt-get install fpga-icestorm
+sudo apt-get install icestorm
+cmake ..
+gedit Deps/ice/CMakeLists.txt
+gedit ../Deps/ice/CMakeLists.txt
+sudo apt-get install libzeroc-ice3.6 zeroc-ice-utils libzeroc-icestorm3.6 zeroc-ice-slice libzeroc-ice-dev
+sudo apt-get install libzeroc-ice3.6
+sudo apt-add-repository "deb http://zeroc.com/download/apt/ubuntu`lsb_release -rs` stable main"
+sudo apt-get update
+sudo apt-get install zeroc-ice-all-runtime zeroc-ice-all-dev
+sudo apt-get install libzeroc-ice3.6 zeroc-ice-utils libzeroc-icestorm3.6 zeroc-ice-slice libzeroc-ice-dev
+cmake ..
+make
+cd ..
+make
